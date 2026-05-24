@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Valentine Gift</title>
+
+    <style>
+
+       /* ===== GLOBAL ===== */
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(135deg, #3b0a45, #7a003c);
+
+  color: white;
+
+  scroll-behavior: smooth;
+
+}
+
+/* ===== NAVIGATION ===== */
+
+nav {
+
+  position: sticky;
+
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  backdrop-filter: blur(10px);
+
+  padding: 10px 0;
+
+  z-index: 1000;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+  padding: 10px 18px;
+
+  border-radius: 25px;
+
+  transition: 0.3s;
+
+  border: 1px solid transparent;
+
+}
+
+nav ul li a:hover {
+
+  background: linear-gradient(45deg, #ff2e63, #9d4edd);
+
+  border: 1px solid white;
+
+  transform: scale(1.1);
+
+}
+
+/* ===== HEADER ===== */
+
+header {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  background: linear-gradient(45deg, #ff2e63, #7b2cbf);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+header h1 {
+
+  font-size: 2.5em;
+
+  letter-spacing: 2px;
+
+}
+
+.highlight {
+
+  color: #ffd166;
+
+  text-shadow: 0 0 10px #ff2e63;
+
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+
+  padding: 50px 20px;
+
+}
+
+/* ===== INTRO BOX ===== */
+
+#intro {
+
+  max-width: 850px;
+
+  margin: auto;
+
+  background: rgba(255,255,255,0.1);
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 0 20px rgba(255, 0, 100, 0.2);
+
+}
+
+/* ===== HER SECTION ===== */
+
+#her h2 {
+
+  text-align: center;
+
+  font-size: 2em;
+
+  color: #ff4d6d;
+
+  text-shadow: 0 0 10px #9d4edd;
+
+}
+
+#you h1 {
+
+  max-width: 800px;
+
+  margin: auto;
+
+  text-align: center;
+
+  font-size: 1.3em;
+
+  background: rgba(255,255,255,0.1);
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+}
+
+/* ===== IMAGES ===== */
+
+img {
+
+  display: block;
+
+  margin: 20px auto;
+
+  border-radius: 20px;
+
+  width: 250px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+
+  transition: 0.4s;
+
+}
+
+img:hover {
+
+  transform: scale(1.05) rotate(-2deg);
+
+}
+
+/* ===== LOVE TEXT ===== */
+
+#five .six {
+
+  text-align: center;
+
+  font-size: 2em;
+
+  color: #ff4d6d;
+
+  font-weight: bold;
+
+  text-shadow: 0 0 10px #9d4edd;
+
+}
+
+/* ===== US SECTION ===== */
+
+#us {
+
+  text-align: center;
+
+  font-size: 1.5em;
+
+}
+
+#use {
+
+  text-align: center;
+
+}
+
+#use img {
+
+  width: 280px;
+
+}
+
+/* vertical LOVE text */
+
+#us {
+
+  font-size: 2em;
+
+  font-weight: bold;
+
+  color: #ff4d6d;
+
+  line-height: 1.2;
+
+}
+
+/* long message */
+
+#last {
+
+  max-width: 850px;
+
+  margin: auto;
+
+  background: rgba(255,255,255,0.1);
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  line-height: 1.8;
+
+  box-shadow: 0 0 20px rgba(155, 0, 100, 0.3);
+
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: linear-gradient(45deg, #7b2cbf, #ff2e63);
+
+  font-weight: bold;
+
+  margin-top: 40px;
+
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+
+  nav ul {
+
+    flex-direction: column;
+
+    gap: 10px;
+
+  }
+
+  header h1 {
+
+    font-size: 1.8em;
+
+  }
+
+  img {
+
+    width: 90%;
+
+  }
+
+}
+
+        
+
+    </style>
+
+</head>
+
+<body>
+
+        <nav>
+
+            <ul>
+
+ <li class="current"><a href="#love"> Love</a></li>
+
+  <li><a href="#her">Her</a></li>
+
+  <li><a href="#us">Us</a></li>
+
+            </ul>
+
+        </nav>
+
+    
+
+    <section id="love">
+
+    <header>
+
+        <div class="style">
+
+        <h1>A Gift To My <span class="highlight">VAL</span>💖🌹</h1>
+
+        </div>
+
+        </header>
+
+        
+
+        
+
+        <section id="intro">
+
+            It's <em>Valentine</em>, a day that's all about love, affection, and connection 😊. So, what's the story behind it?
+
+<p>
+
+Valentine's Day originated from ancient Roman and Christian traditions, but over time, it's evolved into a global celebration of love and romance. At its core, Valentine's Day is about expressing love, appreciation, and gratitude to those who matter most in our lives.</p>
+
+It's a day to:<ul><li>
+
+Celebrate romantic love with partners, spouses, or significant others</li>
+
+<li>Appreciate friends, family, and loved ones who make life richer</li>
+
+<li>Spread kindness, affection, and warmth to those around us</li>
+
+<li>Reflect on the importance of love, relationships, and human connection</li></ul>
+
+People show their love and affection through gifts, gestures, and quality time with loved ones. It's a day to be intentional about nurturing relationships, creating memories, and strengthening bonds.
+
+<br><br>
+
+In essence, Valentine's Day is a celebration of love in all its forms - romantic, platonic, familial, and self-love. It's a reminder that love is worth celebrating every day, not just on February 14th 😊.
+
+<br><br>
+
+Want to know who my val is? click on the "Her" button at the top of the screen!
+
+        </section>
+
+    
+
+          </section>
+
+          
+
+          
+
+          <section id="her">
+
+              
+
+              <section class="her">
+
+<h2>Here's The One After My Heart</h2></section>
+
+<section id="image">
+
+    <div class="me">
+
+  <img src="e2.jpg" width="200px" alt="my love"></div></section>
+
+  
+
+  <section id="you">
+
+  <div class="we">
+
+      <h1>My oluwapelumi 💖, my best friend 👬, my hobby 😎, my love ❣️, my crush 🤩, my present desire 💝, my future desire 💓, my woman 👑.</h1>
+
+  </div></section>
+
+    
+
+ <p><br>
+
+ <section class="he" >
+
+     <h3>My Gorgeous Princess</h3>
+
+ </section></p>
+
+ 
+
+ 
+
+    <section id="ife">
+
+        <div class="love">
+
+ <img src="e3.jpg" width="300" alt="my love"></div></section>
+
+ 
+
+ <section id="five">
+
+ <div class="six">
+
+      I 
+
+     💝💌
+
+     💖 
+
+    You 
+
+     So 
+
+    Much.
+
+    
+
+      </div>
+
+ </section>
+
+    
+
+              
+
+          </section>
+
+          
+
+          <section id="us">
+
+              
+
+              <section id="use">
+
+    <img src="e1.jpg" width="300px" alt="my love"></section>
+
+    
+
+    <section id="us">
+
+        2
+
+        G
+
+        E
+
+        T
+
+        H
+
+        E
+
+        R
+
+       <br><br>
+
+        4
+
+        E
+
+        V
+
+        E
+
+        R
+
+        💌
+
+        🌹
+
+        
+
+        
+
+    </section>
+
+    
+
+    <P>
+
+<section id="last">
+
+"As the sun rises on this special day, my heart beats only for you. Valentine's Day isn't just a date on the calendar; it's a celebration of the love we share, the laughter we create, and the memories we've woven into the fabric of our lives.💌<br><br>
+
+In your eyes, I find my home, my safe haven, my forever. Every moment with you is a gift, a treasure I cherish deeply. Your smile lights up my world, and your touch sets my soul on fire.💗<br><br>
+
+We may not have the chance of being together, but what we have is real, it's raw, and it's ours. It's the late-night talks, the silly jokes, the adventures, and the quiet moments that speak volumes. It's knowing that no matter what, you've got me, and I've got you.💙
+
+<br><br>
+
+Today, on this day of love, I want to tell you how much you mean to me. You're the melody in my song, the rhythm in my heart. You're the reason I wake up with a grin, the reason I dream big.💞<br><br>
+
+You're the sunshine that brightens my day, the stars that light up my night. You're my partner in crime, my confidante, my everything.❣️<br><br>
+
+As we celebrate this Valentine's Day, I want to remind you of the moments that make my heart skip a beat - the way you laugh, the way you smile, the way you make me feel like I'm home.💗<br><br>
+
+Here's to us, to our love story, to the journey ahead. I promise to laugh with you, cry with you, and grow with you. I promise to be your rock, your partner, your best friend.💝
+
+<br><br>
+
+Happy Valentine's Day, my love. May our love continue to be the guiding light in our lives, illuminating our path, and filling our hearts with joy, peace, and endless love 💕.<br><br>
+
+In the end, it's not just about the days we have left, but about making each moment count, with you, for you, and because of you. 💓"
+
+</section>
+
+    </P>
+
+              
+
+          </section>
+
+          
+
+           <footer>
+
+  <p>To my one and only love 💖🌹 EJIRO</p>
+
+    </footer>
+
+         
+
+</body>
+
+</html>
+    
+  </body>
+  
+</html>
